@@ -1,5 +1,5 @@
 .DS_Store
-.editorconfig
+.editorconfig.txt
 *~
 _site
 .sass-cache
