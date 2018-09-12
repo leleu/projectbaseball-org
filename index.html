@@ -15,16 +15,21 @@ layout: default
 
     <div class="row">
         <div class="col-md-6">
-            <h2 class="header-light regular-pad">About BaseballProject.org</h2>
+            <h2 class="header-light regular-pad text-center">About</h2>
             <blockquote>
-              <p>Led by self-taught outsiders, our understanding of the game is informed by data.
+              <p>The modern game of baseball is deeply informed by data.
               However, the steep learning curve limits how fans can engage with the sport.</p>
               <p>This site aims to soften the learning curve, so a modern fan can run their own analysis.
-              Get started in under 10 minutes, then explore while learning skills that are in huge demand.</p>
+              Run your first analysis in under 10 minutes, then continue to learn in-demand data science skills.</p>
             </blockquote>
         </div>
         <div class="col-md-6 text-center">
-            <img src="img/jekyll-dark.png" alt="" class="img-responsive">
+            <h2 class="header-light regular-pad text-center">Launching Soon!</h2>
+            <blockquote>
+                <p style="text-align: left">We're putting together the infrastructure and developing the curriculum now.  Sign up for 
+              the mailing list to follow along as we setup servers, acquire data, and sling code.</p>
+              {% include mc_signup.html %}
+            </blockquote>
         </div>
     </div>
 
@@ -63,27 +68,10 @@ layout: default
     <div class="row">
         <h2 class="header regular-pad text-center" style="font-weight: bold;text-shadow: 1px 1px #999;">Stay Informed</h2>
         <div class="col-md-12 text-center" style="background: url(../img/baseball-field-1548348_1920.jpg);">
-          <!-- Begin MailChimp Signup Form -->
-          <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-          <style type="text/css">
-            #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-          </style>
-          <div id="mc_embed_signup">
-          <form action="https://projectbaseball.us19.list-manage.com/subscribe/post?u=a319185cac5e0c30aa2cf0148&amp;id=31df3b1ebd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <div id="mc_embed_signup_scroll">
-            <label for="mce-EMAIL"></label>
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a319185cac5e0c30aa2cf0148_31df3b1ebd" tabindex="-1" value=""></div>
-              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-              </div>
-          </form>
-          </div>
-<!--End mc_embed_signup-->
+          {% include mc_signup.html %}
           <p style="margin: auto; width: 50%; color: white; text-shadow: 1px 1px #999; padding-bottom: 20px">This course will launch in Winter 2018.  Enter your email to receive
             information about the syllabus and be notified when we launch.</p>
+          }
         </div>
     </div>
 
