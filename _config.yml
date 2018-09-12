@@ -21,7 +21,7 @@ gems:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
-
+  - jekyll-gist
 exclude:
   - Gemfile
   - Gemfile.lock
