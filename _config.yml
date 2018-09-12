@@ -1,0 +1,55 @@
+# Site settings
+title: ProjectBaseball.org
+email: me@travisleleu.com
+description: >
+  Learn Baseball Analysis.  Win Your Fantasy League.
+  ProjectBaseball.org will teach you the skills to work as a baseball analyst.
+  Learn Python, SQL, and how to build your own projection system.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://baseballproject.org # the base hostname & protocol for your site
+git_address: https://github.com/leleu/baseballproject-org
+
+# theme options from https://bootswatch.com/
+# comment out this to use default Bootstrap
+bootwatch: spacelab
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: US/Los_Angeles
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true
