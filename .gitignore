@@ -1,5 +1,6 @@
 .DS_Store
-.editor_config
+.editorconfig
+*~
 _site
 .sass-cache
 .jekyll-metadata
