@@ -36,13 +36,20 @@ defaults:
   values:
     layout: post
     sectionid: blog
-
 - scope:
     path: _docs
     type: docs
   values:
     layout: docs
     sectionid: docs
+    seo:
+      type: "WebPage"
+- scope:
+    path: _guts
+    type: guts
+  values:
+    layout: page
+    sectionid: guts
     seo:
       type: "WebPage"
 
@@ -52,4 +59,7 @@ collections:
     output: true
   posts:
     permalink: /blog/:year/:month/:day/:title/
+    output: true
+  guts:
+    permalink: /guts/:path
     output: true
