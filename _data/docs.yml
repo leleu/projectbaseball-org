@@ -1,7 +1,9 @@
-- title: 1. Getting Started
+- title: Introduction
   docs:
   - introduction
-  - syllabus
+  - motivations
 
-- title: 2. Your Fantasy League
+- title: Current Status
   docs:
+  - current-status
+  - roadmap
