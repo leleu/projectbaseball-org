@@ -7,3 +7,10 @@
   docs:
   - current-status
   - roadmap
+
+- title: Data Sources
+  docs:
+  - fangraphs-player-values
+  - baseball-reference-player-values
+  - xstats-org
+  - yahoo-fantasy-leagues
