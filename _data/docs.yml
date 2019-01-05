@@ -1,16 +1,16 @@
-- title: Introduction
-  docs:
-  - introduction
-  - motivations
+# - title: Introduction
+#   docs:
+#   - introduction
+#   - motivations
 
-- title: Current Status
-  docs:
-  - current-status
-  - roadmap
+# - title: Current Status
+#   docs:
+#   - current-status
+#   - roadmap
 
-- title: Data Sources
-  docs:
-  - fangraphs-player-values
-  - baseball-reference-player-values
-  - xstats-org
-  - yahoo-fantasy-leagues
+# - title: Data Sources
+#   docs:
+#   - fangraphs-player-values
+#   - baseball-reference-player-values
+#   - xstats-org
+#   - yahoo-fantasy-leagues
