@@ -2,9 +2,7 @@
 title: ProjectBaseball.org
 email: me@travisleleu.com
 description: >
-  Learn Baseball Analysis.  Win Your Fantasy League.
-  ProjectBaseball.org will teach you the skills to work as a baseball analyst.
-  Learn Python, SQL, and how to build your own projection system.
+  Improve your baseball forecasting skill to improve your ability to predict player lines.  Get an edge in your fantasy league by more accurately predicting how a player will do.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://projectbaseball.org # the base hostname & protocol for your site
 git_address: https://github.com/leleu/projectbaseball-org
