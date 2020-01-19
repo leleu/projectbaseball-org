@@ -10,11 +10,14 @@
             <a class="navbar-brand" href="{{ site.baseurl }}/">
                 <span><img src="{{site.baseurl}}/img/baseball.gif"></span> {{ site.title }}
             </a>
-                <span class="navbar-brand" style="font-style: italic; font-size: .67em; padding-top: 20px">Pro-ject, not prah-ject</span>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <div class="navbar-right">
                 <ul class="nav navbar-nav">
+                    <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "https://www.facebook.com/projectbaseball" }}">Facebook</a></li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "https://www.facebook.com/projectbaseball" }}">Sign Up Free</a></li>
                 </ul>
             </div>
         </div>
