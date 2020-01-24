@@ -1,0 +1,112 @@
+---
+layout: default
+---
+
+<div class="header-container jumbotron">
+    <div class="container">
+        <h1>Win Your League.</h1>
+        <!--<p>Use your Excel skills to run some simple spreadsheet math.</p>-->
+        <p>Simple and fast access to your fantasy league data, in your spreadsheet.
+        <p>For the fantasy player who manages their teams from Excel</p>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h2 class="header-light regular-pad text-center">Are You Like Me?</h2>
+            <blockquote style="border-left: 0px">
+              <p>I obsessively spend each offseason preparing for my fantasy baseball draft.</p>
+              <p>But once the season starts, I lose track of players not on my roster (other teams, waiver wire).  Once in a while, I'll copy/paste into Excel and run some half-ass analyses, but it's such a pain in the ass to clean the data that I rarely do it.</p>
+              <p>This is despite the fact that...</p>
+
+              <h3>Waiver Wire Management Wins Leagues</h3>
+              <p>Leagues are won with good waiver wire management.  Injuries, hot starts, and players that come from nowhere are all crucial.  Replace Giancarlo Stanton with Yordan Alvarez and you save your season.</p>
+              <h3>Streamers</h3>
+              <p>Streamers are also a big advantage.  Get a couple of SP3s from the wire because you smartly play matchups.  Don't pay in the draft for saves and steals -- you can stream and speculate, if you're on top of things.</p>
+
+              <p>It takes a lot of time to do a daily review for streamers.  Once the data is in place, making a choice isn't too hard.  Except it's hard to compare today's streamers with tomorrow's, because of how the Yahoo interface works</p>
+
+              <h2>The Solution</h2>
+              <p>In the 15 years that I've been playing, I have probably copy-pasted thousands of rosters into thousands of spreadsheets.  I use VLOOKUP to pull projections, then pull opponent rankings to figure out which pitchers are facing the worst offenses.</p>
+              <h3>Leverage Your Excel skillz</h3>
+              <p>This year, I'm going to spend less time cleaning the data in Excel, and more time on the fun stuff: deciding whether to add or drop or trade.  Multiple data sources in one spreadsheet, updated automatically.  Less time, more effective decisions, more league titles.</p>
+
+             <p>OK, so what are we talking about, feature wise?</p>
+
+
+              <h3>Export Your League</h3>
+              <p>Easily update and analyze your fantasy league in a spreadsheet.
+                Sort, filter, aggregate data, just like you do in your day job.
+                Automatically export it to a spreadsheet then show off your Excel skills.</p>
+              <p>I want to be able to easily:
+                <ul>
+                    <li>Sort and filter players, comparing to available players</li>
+                    <li>Build auction value or SGP values, customized to your league settings and scores</li>
+                    <li>Calculate z-scores, keep them up-to-date automatically</li>
+                    <li>Run your team strategy with any analysis you can think of</li>
+                </ul>
+              </p>
+              <h2>Interested?</h2>
+              <p>If you find this interesting, drop your email below.  I'm looking for input from other league managers who run their own analysis in Excel, but anyone with interest is welcome.</p>
+              {% include mc_signup.html %}
+          </blockquote>
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+</div>
+
+<div style="background-color: black;">
+    <h1 align="center" style="color: white; padding: 10px 0 10px 0 !important">Features</h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        <h1 class="text-center"></h1>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-database" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Easy Data Access</h3>
+            <p>
+              Our army of data bots will automatically acquire and process data, letting you focus on the baseball analysis.  Connect your Yahoo account, and we'll pull in your league data.
+              We'll do the boring work so you can analyze your fantasy league for fun and profit.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-play" aria-hidden="true"></i></h1>
+            <h3 class="text-center">No Setup Needed</h3>
+            <p>We've set up the servers and grabbed the data.
+              The boring, complex work of ETL, data modeling, and infrastructure is all taken care of.
+              You'll be running your first baseball analysis in 10 minutes.</p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-arrows-alt" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Things You Can Do</h3>
+                <ul>
+                    <li>Streaming starters with favorable matchups</li>
+                    <li>Setup men whose closers pitched 2 days in a row</li>
+                    <li>Platoon matchups favor a guy on the wire to your starter</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+
+</div>
+
+<script type="text/javascript">
+function set_toggle() {
+    return true;
+    $("#togglepredictionform").click( e, function() {
+        $("#togglepredictionform").toggle(0, function() {
+            $("#predictionform").slideToggle(250);
+        } );
+    } );
+}
+</script>
+
+
+
+
+
